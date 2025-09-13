@@ -1,1 +1,26 @@
-# Simply copy and paste the output from your terminal here!
+rohan@rohanserver:~$ mkdir commandPractice
+rohan@rohanserver:~$ cd commandPractice
+rohan@rohanserver:~/commandPractice$ echo "This is a practice file" > file.txt
+rohan@rohanserver:~/commandPractice$ mkdir insideDirectory
+rohan@rohanserver:~/commandPractice$ cd insideDirectory
+rohan@rohanserver:~/commandPractice/insideDirectory$ cd ../..
+rohan@rohanserver:~$ pwd
+/home/rohan
+rohan@rohanserver:~$ cd commandPractice
+rohan@rohanserver:~/commandPractice$ rmdir insideDirectory
+rohan@rohanserver:~/commandPractice$ ls
+file.txt
+rohan@rohanserver:~/commandPractice$ mv file.txt commandPratcic
+rohan@rohanserver:~/commandPractice$ ls
+commandPratcic
+rohan@rohanserver:~/commandPractice$ echo "A file to be copied" > origin.txt
+rohan@rohanserver:~/commandPractice$ mkdir copyDestination
+rohan@rohanserver:~/commandPractice$ mv origin.txt copyDestination/copy.txt
+rohan@rohanserver:~/commandPractice$ cd copyDestination
+rohan@rohanserver:~/commandPractice/copyDestination$ ls
+copy.txt
+rohan@rohanserver:~/commandPractice/copyDestination$ man ls
+rohan@rohanserver:~/commandPractice/copyDestination$ whoami
+rohan
+rohan@rohanserver:~/commandPractice/copyDestination$ touch note.txt
+rohan@rohanserver:~/commandPractice/copyDestination$ 
